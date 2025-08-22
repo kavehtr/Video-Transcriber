@@ -1,0 +1,35 @@
+{
+  "name": "video-transcriber",
+  "version": "1.0.0",
+  "description": "a video transcription system using OpenAI's Whisper API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavehtr/Video-Transcriber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavehtr/Video-Transcriber/issues"
+  },
+  "homepage": "https://github.com/kavehtr/Video-Transcriber#readme",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "openai": "^5.15.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0"
+  }
+}
